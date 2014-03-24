@@ -1,0 +1,15 @@
+<VirtualHost *:80>
+    ServerName symfony.localhost
+
+    DocumentRoot /var/www/web
+
+    <Directory /var/www/web>
+        AllowOverride All
+        Options +FollowSymLinks
+        Order allow,deny
+        Allow from All
+    </Directory>
+
+    ErrorLog /var/log/apache2/symfony.localhost.error.log
+    CustomLog /var/log/apache2/symfony.localhost.access.log combined
+</VirtualHost>
