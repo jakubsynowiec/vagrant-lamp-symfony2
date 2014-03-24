@@ -10,6 +10,8 @@ Download and install [VirtualBox](http://www.virtualbox.org/)
 
 Download and install [vagrant](http://vagrantup.com/)
 
+Download and install [Vagrant::Hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater)
+
 Clone this repository
 
 Go to the repository folder and install Symfony2 under symfony directory
